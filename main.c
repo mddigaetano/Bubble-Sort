@@ -10,7 +10,7 @@ void BubbleSort(int v[],int n){
     int i,j,scambio;
     
     for(i=0;i<n-1;i++){
-        for(j=1;j<(n-1)-i;j++){
+        for(j=1;j<n-i;j++){
             if(v[j-1]>v[j]){
                 scambio=v[j];
                 v[j]=v[j-1];
